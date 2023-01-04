@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Resposive E-commerce Website</title>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> -->
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+ 
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="" class="logo"><i class='bx bxs-t-shirt' ></i>Mycart</a>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#new">New Arrival</a></li>
+            <li><a href="#product">Products</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+       <!-- icons -->
+       <div class="header-icons">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bxs-search' id="search-icon"></i>
+        <i class='bx bxs-cart-alt' id="cart-icon"></i>
+        <i class='bx bx-user' id="user-icon"></i>
+       </div>
+
+       <!-- searchbox  -->
+       <div class="search-box">
+            <input type="search" name="" id="" placeholder="Search Here. . .">
+       </div>
+
+       <!-- Cart Box -->
+       <div class="cart">
+            <!-- Box 1 -->
+            <div class="box">
+            <img src="images/new1.jpeg" alt="">
+                <div class="text">
+                    <h3>Jackect 14A</h3>
+                    <span>$50.10</span>
+                    <span>x1</span>
+                </div>
+                <i class='bx bxs-trash-alt' ></i>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <img src="images/new2.jpeg" alt="">
+                    <div class="text">
+                        <h3>Jackect 14A</h3>
+                        <span>$50.10</span>
+                        <span>x1</span>
+                    </div>
+                    <i class='bx bxs-trash-alt' ></i>
+            </div>
+            <h2>Total: $100.20</h2>
+            <a href="#" class="btn">Checkout</a>
+       </div>
+       <!-- User -->
+       <div class="user">
+        <h2>Login now</h2>
+        <input type="email" placeholder="Your Email. . .">
+        <input type="password" name="" id="" placeholder="Password">
+        <input type="submit" value="Login" class="login-btn">
+        <p>Forgot Password <a href="#">Reset now</a></p>
+        <p>Don't have account <a href="#">Create One</a></p>
+       </div>
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+
+        <div class="home-text">
+            <span>Shop Now</span>
+            <h1>New Arrival of <br>Fresh Product</h1>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="home-img">
+            <img src="images/home_1.jpg" alt="">
+        </div>
+    </section>
+    <!-- New arrival -->
+    <section class="new" id="new">
+        <div class="heading">
+            <h1>New <span>Arrival</span></h1>
+        </div>
+        <div class="swiper new-arrival">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/new1.jpeg" alt="">
+                    <div class="containt">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/new2.jpeg" alt="">
+                    <div class="containt">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/new3.jpeg" alt="">
+                    <div class="containt">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/new4.jpeg" alt="">
+                    <div class="containt">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/new5.jpeg" alt="">
+                    <div class="containt">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/new6.jpeg" alt="">
+                    <div class="containt">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Product -->
+    <section class="product" id="product">
+        <div class="heading">
+            <h1>Our <span>Products</span></h1>
+        </div>
+        <div class="product-container">
+            <div class="box">
+                <img src="images/p1.jpeg" alt="">
+                <div class="container">
+                    <h2>Jackect 14A</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <span>$50.10</span>
+                    <i class='bx bx-cart-alt' ></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p2.jpeg" alt="">
+                <div class="container">
+                    <h2>Jackect 14A</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <span>$50.10</span>
+                    <i class='bx bx-cart-alt' ></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p3.jpeg" alt="">
+                <div class="container">
+                    <h2>Jackect 14A</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <span>$50.10</span>
+                    <i class='bx bx-cart-alt' ></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p4.jpeg" alt="">
+                <div class="container">
+                    <h2>Jackect 14A</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <span>$50.10</span>
+                    <i class='bx bx-cart-alt' ></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p5.jpeg" alt="">
+                <div class="container">
+                    <h2>Jackect 14A</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <span>$50.10</span>
+                    <i class='bx bx-cart-alt' ></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p6.jpeg" alt="">
+                <div class="container">
+                    <h2>Jackect 14A</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <span>$50.10</span>
+                    <i class='bx bx-cart-alt' ></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p7.jpeg" alt="">
+                <div class="container">
+                    <h2>Jackect 14A</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <span>$50.10</span>
+                    <i class='bx bx-cart-alt' ></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p8.jpeg" alt="">
+                <div class="container">
+                    <h2>Jackect 14A</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <span>$50.10</span>
+                    <i class='bx bx-cart-alt' ></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Reviews -->
+    <section class="reviews" id="reviews">
+        <div class="heading">
+            <h1>Our <span>Customers</span></h1>
+        </div>
+        <div class="reviews-container">
+            <div class="box">
+                <img src="images/r1.jpeg" alt="">
+
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p>Love this jacket! The other colors that I ordered (pink, red and black) are absolutely gorgeous. The burgundy and navy are both too dull in color for my taste so I returned those two. This jacket is lightweight but warm.</p>
+                <h2>Will Smith</h2>
+            </div>
+
+            <div class="box">
+                <img src="images/r2.jpeg" alt="">
+
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p>I have been eyeing for this puffer jacket for a long time, and when the Black Friday sale popped up, I snagged it! I LOVE THIS JACKET.</p>
+                <h2>Janet G</h2>
+            </div>
+
+            <div class="box">
+                <img src="images/r3.jpeg" alt="">
+
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p>I am really impressed by this jacket. It does not look cheap, has zipper pockets, an inside pocket, a hood and a packable bag attached to the inside. The best thing about it is the wrist cuffs—they are slightly tapered and slightly stretchy. So they stay in place but you can push them up easily to check your watch. It will definitely be warm enough for 50 degree temps.</p>
+                <h2>Mally Frank</h2>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer-box">
+                <h2>Mycart</h2>
+                <p>I am really impressed by this jacket. It does not look cheap, has zipper pockets, an inside pocket, a hood and a packable bag attached to the inside. </p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-tiktok' ></i></a>
+                </div>
+        </div>
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">FAQ</a></li>
+
+        </div>
+
+        <div class="footer-box">
+            <h3>Our Branches</h3>
+            <li><a href="#">Chaina</a></li>
+            <li><a href="#">United States</a></li>
+            <li><a href="#">Canada</a></li>
+            <li><a href="#">India</a></li>
+            <li><a href="#">UK</a></li>
+
+        </div>
+        <div class="footer-box">
+            <h3>Payment Method</h3>
+            <div class="paymet">
+                <img src="images/visa.jpeg" alt="">
+                <img src="images/mastercard.jpeg" alt="">
+                <img src="images/paypal.jpeg" alt="">
+                <img src="images/american-express.jpeg" alt="">
+            </div>
+        </div>
+        
+    </section>
+    <!-- Copy right -->
+    <div class="copyright">
+        <p>&#169 All Right Reserved.</p>
+    </div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="main.js"></script>
+</body>
+</html>

@@ -288,16 +288,18 @@ header.shadow{
     margin-top: 2rem;
 }
 .new-arrival .box{
-    position:relativec;
+    position:left;
     overflow: hidden;
-    background: var(--second-color);
+    background: var(--main-color);
+    box-shadow: var(--box-shadow);
 }
 
 .new-arrival .box img{
     background: var(--second-color);
-    width: 100%;
+    width: 99.5%;
     height: 100%;
     object-fit: cover;
+    
 }
 .new-arrival .box .containt{
     position:absolute;
